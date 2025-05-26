@@ -1,0 +1,33 @@
+# Ignore o diretório de build
+/build
+/dist
+
+# Ignore arquivos temporários de sistema
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore a pasta node_modules (para projetos Node.js)
+node_modules/
+
+# Ignore arquivos de IDE
+.idea/
+.vscode/
+
+# Ignore arquivos de sistema do MacOS
+.DS_Store
+
+# Ignore arquivos Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore arquivos do ambiente virtual Python
+venv/
+.env/
+
+# Ignore arquivos de configuração de sistema
+*.bak
+*.old
