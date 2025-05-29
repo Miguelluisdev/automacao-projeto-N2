@@ -56,6 +56,7 @@ Scenario('Cadastro com campos vazios', async  ({ I }) => {
   I.see('O campo nome deve ser prenchido')
 }).tag('@register-empty');
 
-After(() => {
+After(({I}) => {
   console.log('testes de autenticação/criação de conta realizados')
+  I.clearCookie()  
 })

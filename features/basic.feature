@@ -1,7 +1,8 @@
-Feature: Business rules
-  In order to achieve my goals
-  As a persona
-  I want to be able to interact with a system
+Feature: User Registration
+  As a new user
+  I want to register on the system
+  So that I can access the website
 
-  Scenario: do something
-    Given I have a defined step
+  Background:
+    Given I am on the registration page
+

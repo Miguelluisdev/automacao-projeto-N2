@@ -1,0 +1,30 @@
+  outros testes de navegação
+  I.moveCursorTo(this.header.mainMenu.linkShop)
+  I.see('Shop Four Grid')
+  I.click('Shop Four Grid')
+  I.seeInCurrentUrl('/shop');
+  I.see('Sort By')
+
+  I.moveCursorTo(this.header.mainMenu.linkShop)
+  I.see('Shop Left Sidebar')
+  I.click('Shop Left Sidebar')
+  I.seeInCurrentUrl('/shop-left-bar');
+  I.see('Product Categories')
+  
+  I.moveCursorTo(this.header.mainMenu.linkShop)
+  I.see('Product Single')
+  I.click('Product Single')
+  I.seeInCurrentUrl('/product-details-one/1');
+  I.see('Green Dress For Woman')
+
+  I.moveCursorTo(this.header.mainMenu.linkPage)
+  I.see('Customer Dashboard')
+  I.click('Customer Dashboard')
+  I.seeInCurrentUrl('/my-account');
+
+
+  I.moveCursorTo(this.header.mainMenu.linkPage)
+  I.see('About Us')
+  I.click('About Us')
+  I.seeInCurrentUrl('/about');
+  I.see('Sobre a QAZANDO')

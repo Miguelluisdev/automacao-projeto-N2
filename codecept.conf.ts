@@ -12,7 +12,8 @@ exports.config = {
   },
   include: {
     I: './steps_file',
-    autenticatePage: './pages/Autenticate.ts'
+    autenticatePage: './pages/Autenticate.ts',
+    navigatePage: "./pages/navigate.ts",
   },
   mocha: {},
   bootstrap: null,
@@ -25,7 +26,7 @@ exports.config = {
   },
   plugins: {
     screenshotOnFail: {
-      enabled: true
+      enabled: false
     },
     tryTo: {
       enabled: true
