@@ -4,7 +4,7 @@ exports.config = {
     Playwright: {
       browser: 'chromium',
       url: 'https://automationpratice.com.br',
-      show: false,
+      show: true,
       chromium: {
         executablePath: 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
       }
@@ -14,6 +14,8 @@ exports.config = {
     I: './steps_file',
     autenticatePage: './pages/Autenticate.ts',
     navigatePage: "./pages/navigate.ts",
+
+    checkoutPage: "./pages/checkout.ts",
   },
   mocha: {},
   bootstrap: null,
