@@ -14,8 +14,8 @@ exports.config = {
     I: './steps_file',
     autenticatePage: './pages/Autenticate.ts',
     navigatePage: "./pages/navigate.ts",
-
     checkoutPage: "./pages/checkout.ts",
+
   },
   mocha: {},
   bootstrap: null,
